@@ -1,0 +1,19 @@
+<%- include('../partials/header'); %>
+
+    <main class="main container">
+        <div class="row">
+            <h2 class="col-12"><%= name %></h2>
+            <section class="section row">
+                <figure class="figure col-10">
+                    <figcaption><%= data.title %></figcaption>
+                    <figcaption><%= data.description %></figcaption>
+                    <hr>
+                    <h3>Ingredients:</h3>
+                    <figcaption><%= data.ingredients %></figcaption>
+                    <hr>
+                </figure>
+            </section>
+        </div>
+    </main>
+
+<%- include('../partials/footer'); %>
